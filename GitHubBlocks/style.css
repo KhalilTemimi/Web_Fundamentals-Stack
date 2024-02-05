@@ -1,0 +1,45 @@
+.container{
+    padding: 20px;
+    width: 900px;
+    margin: 0px auto;
+}
+h1{
+    text-align: center;
+    text-decoration: solid;
+    color: rgb(158, 157, 157);
+    font-family: sans-serif;
+}
+p{
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: lightgray;
+}
+img{
+    height: 200px;
+}
+.tech-octocat{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+.hollween-octocat{
+    display: flex;
+    align-items: center;
+    background-color: gainsboro;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: 20px;
+}
+.octocat{
+    display: flex;
+    align-items: center;
+    background-color: rebeccapurple;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+}
