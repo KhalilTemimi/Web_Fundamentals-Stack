@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.top{
+    background-color: #9FC5F8;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    height: 55px;
+}
+.navBarRight{
+    flex: 1;
+    padding-right: 10px;
+}
+.navBarLeft{
+    flex: 1;
+    padding-left: 10px;
+}
+.navLinks{
+    display: flex;
+    justify-content: space-between;
+    margin-left:20px;
+    list-style-type: none;
+}
+.navLinks a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    margin: 0 auto;
+    width: 70%;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    align-items: center;
+    margin: 10px;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+}
+.weatherDay{
+    flex: 1;
+    text-align: center;
+    background-color: #EEEEEE;
+    height: 250px;
+    padding: 20px 0;
+    margin: 10px;
+}
+.weatherDay img{
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+.temperatureValue{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 0 30px;
+}
+.max{
+    color: #D13F3C;
+    font-weight: bold;
+}
+.min{
+    color: #669BE7;
+    font-weight: bold;
+}
+.popup{
+    flex: 1;
+    display: flex;
+    position: fixed;
+    bottom:10px;
+    width: 70%;
+    align-items: center;
+    border: 2px solid black;
+    background-color: #EEEEEE;
+}
+.popup img{
+    margin: 20px;
+}
+.acceptBtn{
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    background-color: #9FC5F8;
+    box-shadow: 3px 3px black;
+    margin: 20px;
+}

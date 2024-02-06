@@ -1,0 +1,142 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+/* navigation bar */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #333333;
+    margin: 0 auto;
+    padding: 0 26%;
+    height: 70px;
+}
+.nav-title{
+    margin: 25px;
+    color: white; 
+}
+.active{
+    text-decoration: solid;
+}
+.nav-links{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    background-color: #17A2B8;
+    box-shadow: 5px 5px black;
+    color: white;
+    text-decoration: solid;
+    width: 100px;
+    height: 30px;
+}
+/* user card */
+.container{
+    margin: 0px auto;
+    display:flex;
+    width: 700px;
+    height: 350px;
+}
+.main1{
+    flex: 3;
+}
+.main2{
+    flex: 2;
+}
+.user{
+    flex: 2;
+    margin: 20px;
+}
+.up{
+    height: 80px;
+    background-color: #17A2B8;
+}
+.down{
+    background-color: white;
+    border-color: #CCCCCC;
+    border-style: solid;
+    padding:25px 10px 5px 20px;
+}
+.user_photo{
+    height: 80px;
+    border-color: #CCCCCC;
+    border-style: solid;
+    padding: 3px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 30px;
+}
+.connection{
+    display: flex;
+    justify-content: space-between;
+}
+.connection_photo{
+    height: 30px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 50%;
+    /* margin: 30px; */
+}
+.connection_name{
+    align-items: center;
+}
+h3 img{
+    height: 15px;
+}
+p{
+    text-decoration: solid;
+}
+p img{
+    height: 15px;
+}
+p a{
+    color: #3F79AA;
+}
+.bar{
+    height: 30px;
+    color: white;
+    background-color: #333333;
+    padding: 3px 10px;
+    display: flex;
+    align-items: center;
+}
+.downbar{
+    background-color: white;
+    border-color: #CCCCCC;
+    border-style: solid;
+    padding: 5px;
+}
+.right_side{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.connection_name{
+    margin-left: 5px;
+}
+.view_more{
+    display: flex;
+    align-items: center;
+    border-top-color: #cccc;
+    border-top-style: solid;
+    padding: 10px;
+    color: #3F79AA;
+}
+h3+h5{
+    color: #b7b5b5;
+}
+.nbr{
+    background-color: #CCCCCC;
+    color: #333333;
+    border-radius: 50%;
+    padding: 0 10px;
+    margin-right: 10px;
+    justify-content: center;
+}

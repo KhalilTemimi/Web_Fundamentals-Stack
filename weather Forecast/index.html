@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+        <div class="navBar">
+            <div class="navBarLeft">
+                <h1 class="navTitle">Dojo Weather</h1>
+                    
+            </div>
+            <div class="navBarRight">
+                <ul class="navLinks">
+                    <li><a href="#" onclick="message()">Burbank</a></li>
+                    <li><a href="#" onclick="message()">Dallas</a></li>
+                    <li><a href="#" onclick="message()">Chicago</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="up">
+            <div class="upLeft">
+                <h2>SanJose</h2>
+            </div>
+            <div class="upRight">
+                <label for="selectTemperature">show temperature in </label>
+                <select name="temperature" id="temperature" onclick="switchTemperature(temperature)">
+                    <option value="°C">°C</option>
+                    <option value="°F">°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="down">
+            <div class="weatherDay">
+                <h3>Today</h3>
+                <img src="some_rain.png" alt="some rain">
+                <h5>some rain</h5>
+                <div class="temperatureValue">
+                    <span id="temp1" class="max">24°</span>
+                    <span id="temp2" class="min">18°</span>
+                </div>
+            </div>
+            <div class="weatherDay">
+                <h3>Tomorrow</h3>
+                <img src="some_sun.png" alt="some sun">
+                <h5>some sun</h5>
+                <div class="temperatureValue">
+                    <span id="temp3" class="max">27°</span>
+                    <span id="temp4" class="min">19°</span>
+                </div>
+            </div>
+            <div class="weatherDay">
+                <h3>Saturday</h3>
+                <img src="some_clouds.png" alt="some clouds">
+                <h5>some clouds</h5>
+                <div class="temperatureValue">
+                    <span id="temp5" class="max">21°</span>
+                    <span id="temp6" class="min">16°</span>
+                </div>
+            </div>
+            <div class="weatherDay">
+                <h3>Sunday</h3>
+                <img src="some_sun.png" alt="some sun">
+                <h5>some sun</h5>
+                <div class="temperatureValue">
+                    <span id="temp7" class="max">26°</span>
+                    <span id="temp8" class="min">21°</span>
+                </div>
+            </div>
+        </div>
+        <div id="popup" class="popup">
+            <img src="cookie.png" alt="cookie icon">
+            <div>
+                <h3>Stop! Cookie time</h3>
+                We use cokies (sadly not the edible one) to personalize content and ads,
+                to provide social media features and to analyse your traffic.
+                <a href="#">read more...</a>
+            </div>
+            <button class="acceptBtn" onclick="dismiss(popup)">I Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
