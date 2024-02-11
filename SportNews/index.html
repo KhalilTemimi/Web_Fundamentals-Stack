@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Sports News Network</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="extraTop">
+        <div class="liveScores">
+            <h1>Live Scores</h1>
+            <ul>
+                <li>SJC Ninja - 314</li>
+                <li>NS Pirates - 159</li>
+            </ul>
+            <ul>
+                <li>CHI Samurai - 0</li>
+                <li>TUL Wizards - 0</li>
+            </ul>
+            <ul>
+                <li>Bos Hackers - 13</li>
+                <li>TYO Yukai - 37</li>
+            </ul>
+            <ul>
+                <li>Boi Knights - 5</li>
+                <li>SEA Lions - 11</li>
+            </ul>
+        </div>
+    </div>
+    <div class="top">
+        <div class="navBar">
+            <div class="navBarLeft">
+                <h1 class="navTitle">DSNN</h1>
+                    <ul class="navLinks">
+                        <li><a href="#">Football</a></li>
+                        <li><a href="#">Basketball</a></li>
+                        <li><a href="#">Baseball</a></li>
+                        <li><a href="#">Soccer</a></li>
+                        <li><a href="#">More...</a></li>
+                    </ul>
+            </div>
+            <div class="navBarRight">
+                <ul class="navLinks">
+                    <li><img src="dsnn\assets\search-light.png" alt="search icon"></li>
+                    <li><img src="dsnn\assets\hamburger-light.png" alt="menu icon"></li>
+                    <li><img src="dsnn\assets\user-circle-light.png" alt="user photo"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="main">
+            <div class="mainLeft">
+                <div class="infoBoxLeft">
+                    <h2 id="h2news">Top Stories</h2>
+                    <ul class="news">
+                        <li>Ninjas up big in 5th</li>
+                        <li>Best Sports cities</li>
+                        <li>Choi joins Hall of Fame</li>
+                        <li>Tournament underway</li>
+                        <li>Samurai at Wizards...</li>
+                    </ul>
+                </div>
+                <div class="infoBoxLeft">
+                    <h3>Cutomize your DSNN</h3>
+                    <BUtton class="btnSignIn">Sign In</BUtton>
+                    <button class="btnSignOut">Sign Up</button>
+                </div>
+                <div id="thirdBox" class="infoBoxLeft">
+                    <h3>Never miss a play</h3>
+                    <button onclick="remove(thirdBox)" class="btnSubs">Subscribe</button>
+                </div>
+            </div>
+            <div class="mainRight">
+                <div class="infoBoxRight">
+                    <div class="head">
+                        <h1><li>Live</li></h1>
+                        <h1>Ninjas Leading Pirates</h1>
+                    </div>
+                    <div class="body">
+                        <div class="bodyLeft">
+                            <img class="teamAvatar" src="dsnn\assets\sjc-ninjas.png" alt="sjc-ninjas avatar">
+                            <h5>San Jose</h5>
+                            <h1 class="nameTeam1">Ninjas</h1>
+                            <span class="teamStatistic">(10 W - 3 L)</span>
+                            <h1 onclick="addone('toNinja')" id="ninjasScore">314</h1>
+                        </div>
+                        <div class="bodyCenter">
+                            <h2>VS</h2>
+                            <p>0:13 remaining<br>5th period</p>
+                        </div>
+                        <div class="bodyRight">
+                            <img class="teamAvatar" src="dsnn\assets\ns-pirates.png" alt="ns-pirates avatar">
+                            <h5>Nova Scotia</h5>
+                            <h1 class="nameTeam2">Pirates</h1>
+                            <span class="teamStatistic">(12 W - 2 L)</span>
+                            <h1 onclick="addone('toPirates')" id="piratesScore">159</h1>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <p>A concervative match between the two top-performing sides in the Central League Division with a number 1 seed at stake... <a href="#">get live updates</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

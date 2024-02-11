@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: lightgrey;
+    padding-bottom: 30px;
+}
+.extraTop{
+    background-color: white;
+}
+.liveScores{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 55%;
+    height: 70px;
+}
+.top{
+    background-color: black;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    margin: 0 auto;
+}
+.navBarRight{
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+.navBarLeft{
+    display: flex;
+    flex: 5;
+    align-items: center;
+}
+.navTitle{
+    background-color: red;
+    background-position: 10%;
+    color: white;
+    transform: skewX(-15deg);
+    padding: 10px 20px;
+    
+}
+.active{
+    text-decoration: solid;
+}
+.navLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none; 
+}
+h1 li{
+    list-style-type: disc;
+    color: red;
+    border-spacing: 0;
+}
+.navLinks li{
+    display: flex;
+    justify-content: space-between;
+    margin-left:20px;
+}
+.news li{
+    margin-top: 15px;
+}
+#h2news{
+    border-bottom: solid black;
+    padding-bottom: 15px;
+}
+li img{
+    height: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p a{
+    text-decoration: underline;
+    color:blue;
+}
+.btnSignIn{
+    background-color: #17A2B8;
+    box-shadow: 5px 5px black;
+    color: white;
+    text-decoration: solid;
+    width: 45%;
+    height: 40px;
+    margin-right: 15px;
+}
+.btnSignOut{
+    background-color: white;
+    box-shadow: 5px 5px black;
+    text-decoration: solid;
+    width: 45%;
+    height: 40px;
+}
+.btnSubs{
+    background-color:#FFE599;
+    box-shadow: 5px 5px black;
+    text-decoration:solid;
+    width: 100%;
+    height: 40px;
+}
+h3{
+    margin-bottom: 15px;
+}
+.main{
+    display: flex;
+    margin: 0 auto;
+    width: 55%;
+}
+.mainLeft{
+    flex: 1;
+}
+.mainRight{
+    flex: 2;
+}
+.infoBoxLeft, .infoBoxRight{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.infoBoxLeft{
+    margin: 20px 20px 0 0;
+}
+.infoBoxRight{
+    margin: 20px 0 0 0;
+}
+h1 ul{
+    margin-top: 10px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.bodyLeft, .bodyCenter, .bodyRight{
+    flex: 1;
+    text-align: center;
+}
+.bodyCenter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 80px 0 30px 0;
+}
+
+.nameTeam1{
+    color: #128893;
+}
+.nameTeam2{
+    color:#E32940 ;
+}
+.teamStatistic{
+    color: #ADACAD;
+}
+.teamAvatar{
+    height: 200px;
+}
+.footer{
+    border-top: solid black;
+    padding-top: 15px;
+}
